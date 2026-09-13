@@ -1,1 +1,289 @@
+/* ===================================
+   BHUMIKA JII SPA SERVICE
+=================================== */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(180deg, #fff8fc 0%, #f8f3ff 100%);
+    color: #2d2235;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 650px;
+    margin: auto;
+    padding: 35px 20px;
+}
+
+
+/* PROFILE SECTION */
+
+.profile-section {
+    text-align: center;
+    padding: 20px 0 30px;
+}
+
+.profile-image {
+    width: 115px;
+    height: 115px;
+    margin: 0 auto 18px;
+    padding: 5px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #a855f7, #ec4899);
+    box-shadow: 0 10px 30px rgba(168, 85, 247, 0.25);
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile-info h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.verified {
+    color: #a855f7;
+    font-size: 19px;
+}
+
+.tagline {
+    font-size: 14px;
+    color: #766d7d;
+    margin-bottom: 12px;
+}
+
+.rating {
+    font-size: 13px;
+}
+
+.stars {
+    color: #f59e0b;
+    margin-right: 7px;
+}
+
+.rating-text {
+    color: #6b6470;
+}
+
+
+/* BOOKING BUTTON */
+
+.booking-section {
+    margin-bottom: 25px;
+}
+
+.booking-btn {
+    width: 100%;
+    min-height: 62px;
+    padding: 15px 22px;
+    border-radius: 18px;
+    background: linear-gradient(135deg, #a855f7, #ec4899);
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    box-shadow: 0 10px 25px rgba(168, 85, 247, 0.28);
+    transition: 0.3s ease;
+}
+
+.booking-btn:hover {
+    transform: translateY(-3px);
+}
+
+
+/* STATS */
+
+.stats-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-bottom: 45px;
+}
+
+.stat-card {
+    background: white;
+    padding: 18px 8px;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(70, 40, 90, 0.06);
+}
+
+.stat-card h2 {
+    font-size: 21px;
+    color: #a855f7;
+    margin-bottom: 5px;
+}
+
+.stat-card p {
+    font-size: 10px;
+    color: #7a7180;
+}
+
+
+/* ABOUT */
+
+.about-section {
+    text-align: center;
+    padding: 10px 15px 45px;
+}
+
+.section-icon {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 18px;
+    border-radius: 18px;
+    background: linear-gradient(135deg, #f3e8ff, #fce7f3);
+    color: #a855f7;
+    font-size: 25px;
+}
+
+.about-section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 31px;
+    line-height: 1.25;
+    margin-bottom: 15px;
+}
+
+.about-section p {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #766d7d;
+}
+
+
+/* SERVICES */
+
+.services-section {
+    margin-bottom: 40px;
+}
+
+.services-section > h2 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.service-card {
+    background: white;
+    padding: 22px 15px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(70, 40, 90, 0.07);
+    transition: 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.service-icon {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.service-card h3 {
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+
+.service-card p {
+    font-size: 11px;
+    color: #807785;
+}
+
+
+/* LIMITED SLOTS */
+
+.limited-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 18px;
+    border-radius: 18px;
+    background: linear-gradient(135deg, #fff1f2, #fdf4ff);
+    margin-bottom: 25px;
+    border: 1px solid #f3d4eb;
+}
+
+.limited-icon {
+    font-size: 28px;
+}
+
+.limited-section h3 {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.limited-section p {
+    font-size: 11px;
+    color: #7a7180;
+}
+
+
+/* FOOTER */
+
+.bottom-booking {
+    margin-bottom: 35px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0 10px;
+    color: #82788a;
+}
+
+footer p:first-child {
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.footer-text {
+    font-size: 10px;
+    margin-top: 6px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 480px) {
+
+    .container {
+        padding: 25px 15px;
+    }
+
+    .profile-info h1 {
+        font-size: 26px;
+    }
+
+    .about-section h2 {
+        font-size: 27px;
+    }
+}
